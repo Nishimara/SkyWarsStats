@@ -1,0 +1,25 @@
+{
+  "name": "swstats",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "vraccking",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.5",
+    "@discordjs/rest": "^2.0.1",
+    "discord-api-types": "^0.37.60",
+    "discord.js": "^14.13.0",
+    "hypixel-api-reborn": "^11.0.1",
+    "node-fs": "^0.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "node build/index.js",
+    "start-dev": "ts-node src/index.ts",
+    "build": "tsc"
+  }
+}
