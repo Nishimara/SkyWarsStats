@@ -32,7 +32,7 @@ rest.put(Routes.applicationCommands(config.clientId), { body: commands })
 
 client.on('interactionCreate', (async interaction => {
     if (!interaction.isCommand()) return;
-    if(!interaction.isChatInputCommand()) return
+    if(!interaction.isChatInputCommand()) return;
     const { commandName } = interaction;
 
     if (commandName === 'sw') {

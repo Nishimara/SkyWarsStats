@@ -1,5 +1,3 @@
-import { ChildProcessWithoutNullStreams } from "child_process"
-
 interface iSWTotalModeStats {
     winstreak: number,
     playedGames: number,
